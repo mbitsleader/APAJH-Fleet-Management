@@ -1,0 +1,35 @@
+
+# Worktrees Claude Code
+.worktrees/
+
+# ── Environnements — NE JAMAIS COMMITTER ──────────────────────────────────────
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# ── Node / Build ──────────────────────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+backend_dev.log
+frontend_dev.log
+debug_auth.log
+
+# ── OS / Éditeurs ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Dumps DB (données sensibles) ──────────────────────────────────────────────
+db_dump*.json
+
+# ── Fichiers sensibles locaux ──────────────────────────────────────────────────
+CREDENTIALS.md
